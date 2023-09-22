@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.header {
+    padding: 5px;
+    background-color: green;
+    text-align: center;
+    font-family: monospace;
+    color: white;
+}
+
+.footer {
+    padding: 5px;
+    font-family: sans-serif;
+    background-color: green;
+    text-align: center;
+    color: white;
+}
