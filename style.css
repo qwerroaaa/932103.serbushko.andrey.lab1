@@ -1,11 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: white;
     font-size: 16px;
-    margin: 0px;
+}
+
+.hello_content {
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 110%;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color: red;
+}
+
+.link_tsu {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
 }
 
 .header {
-    padding: 5px;
+    padding: 10px;
     background-color: green;
     text-align: center;
     font-family: monospace;
@@ -13,9 +43,106 @@ body {
 }
 
 .footer {
-    padding: 5px;
+    padding: 10px;
     font-family: sans-serif;
     background-color: green;
     text-align: center;
     color: white;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.content_con {
+    display: inline-block;
+    background-color: blue;
+    color:white;
+    padding: 20px 30px 20px;
+    
+}
+
+.figure {
+    float: left;
+    width: 90px;
+    height: 90px;
+    border: 4px solid white;
+    border-radius: 20px 0 20px 0;
+    margin: 0 20px 20px 0;
+}
+
+.value_list_title {
+    word-spacing: 10px;
+    font-size: 2em;
+}
+
+span {
+    color: red;
+}
+
+table
+{
+    border: 1px solid white;
+    float: right;
+    margin-bottom: auto;
+}
+
+td
+{
+    width: 40px; 
+    height: 30px; 
+    border: solid 1px silver; 
+    text-align:center;
+}
+
+.div-wrapper {
+    position: relative;
+    height: 140px;
+    max-width: 600px;
+}
+
+.div-wrapper img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+ul {
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+ul > li {
+    line-height: 150%;
+}
+
+ul > li:nth-child(2) {
+    letter-spacing: 3px;
+    color: aqua;
+}
+
+.visual_styles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vs_text {
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.del_line {
+    margin-top: 10px;
+}
+
+.number_one:first-child {
+    vertical-align: bottom;
+    background-color: green;
+}
+
+.number-seven:last-child {
+    background-color: red;
+    vertical-align: bottom;
 }
